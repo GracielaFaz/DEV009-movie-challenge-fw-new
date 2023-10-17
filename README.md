@@ -2,6 +2,8 @@
 
 ## Índice
 
+hola
+
 - [1. Preámbulo](#1-preambulo)
 - [2. Resumen del proyecto](#2-resumen-del-proyecto)
 - [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
