@@ -1,0 +1,6 @@
+.mGrid {
+  display: grid;
+	grid-template-columns: repeat(5,auto);
+	gap: 40px 80px;
+	padding: 10px;
+}
