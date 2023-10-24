@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-//import MovieCard  from './components/movies/movieCard/movieCard'
 import MoviesGrid from './components/movies/movieGrid/movieGrid'
 import Header from './components/header/headrer'
+import WebFooter from './components/footer/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +13,7 @@ function App() {
     <>
       <Header />
       <MoviesGrid />
+      <WebFooter />
       <div>
         <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className="logo" alt="Vite logo" />
