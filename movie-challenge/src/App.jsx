@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import MoviesGrid from './components/movies/movieGrid/movieGrid'
 import Header from './components/header/headrer'
 import WebFooter from './components/footer/footer'
+import Preview from './components/welcome/preview/preview'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,28 +11,15 @@ function App() {
   return (
     <>
       <Header />
+      <Preview />
       <MoviesGrid />
       <WebFooter />
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+    
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }

@@ -4,8 +4,10 @@ import './header.css'
 export default function Header() {
   return (
 		<header>
-			<img className='logo' src={miklopolisImage} alt="Logo Miklopolis" />	
-			<input type="text" placeholder='Search..'/>
+			<div className="container">
+				<img className='logo' src={miklopolisImage} alt="Logo Miklopolis" />	
+				<input type="text" placeholder='Search..'/>
+			</div>
 		</header>
 	)
 }
