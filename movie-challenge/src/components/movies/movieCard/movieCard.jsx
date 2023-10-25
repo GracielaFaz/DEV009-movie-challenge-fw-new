@@ -1,19 +1,19 @@
 import './movieCard.css'
 
 // eslint-disable-next-line react/prop-types
-export default function MovieCard() {
-	// const { poster_path, title, release_date } = movie;
+export default function MovieCard({ title, release_date, poster_path}) {
   return (
 		<div className='movieCard'>
       <img 
         className="poster"
-        src="https://www.themoviedb.org/t/p/original//2ah8fNJFZVU3vcXhU5xfAYi2eym.jpg" 
-        alt='Casper' 
+        src={`https://www.themoviedb.org/t/p/original/${poster_path}`}
+        alt= {title} 
       />
       <div className="movie-details">
-        <p>1995</p>
-        <h2>Casper</h2>
+        <p>{release_date}</p>
+        <h2>{title}</h2>
       </div>
+    
 		</div>
   );
 }
