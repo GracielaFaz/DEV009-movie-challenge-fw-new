@@ -24,7 +24,7 @@ export default function MoviesGrid() {
   const movieList = GetMovieInfo()
   return (
     <div className="mGrid">
-      {movieList.map((movie,index) =>(
+      {movieList.map((movie,index) => (
         <MovieCard key={index} {...movie} />
       ))}
     </div>

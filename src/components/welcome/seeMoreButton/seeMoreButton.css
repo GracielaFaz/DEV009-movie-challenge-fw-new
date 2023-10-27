@@ -1,0 +1,15 @@
+button {
+	display: flex;
+	padding: 6px 16px;
+	align-items: center;
+	gap: 8px;
+	border-radius: 6px;
+	background: var(--blue-600, #2563EB);
+	color: var(--white, #FFF);
+	font-family: DM Sans;
+	font-weight: 500;
+	line-height: 24px; 
+	border: 0;
+
+}
+
