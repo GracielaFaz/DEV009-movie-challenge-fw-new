@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import MoviesGrid from './components/movies/movieGrid/movieGrid'
 import Header from './components/header/headrer'
-import WebFooter from './components/footer/footer'
 import Preview from './components/welcome/preview/preview'
+import MoviesGrid from './components/movies/movieGrid/movieGrid'
+import Pagination from './components/movies/pagination/pagination'
+import WebFooter from './components/footer/footer'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +16,7 @@ function App() {
       <Header />
       <Preview />
       <MoviesGrid />
+      <Pagination />
       <WebFooter />
     
       <div className="card">
