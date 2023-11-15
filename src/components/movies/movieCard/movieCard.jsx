@@ -1,6 +1,5 @@
 import './movieCard.css'
 
-// eslint-disable-next-line react/prop-types
 export default function MovieCard({ title, release_date, poster_path}) {
   return (
 		<div className='movieCard'>
@@ -10,7 +9,7 @@ export default function MovieCard({ title, release_date, poster_path}) {
         alt= {title} 
       />
       <div className="movie-details">
-        <p>{release_date}</p>
+        <p>{release_date.slice(0,4)}</p>
         <h2>{title}</h2>
       </div>
     

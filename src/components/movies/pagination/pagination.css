@@ -1,0 +1,10 @@
+.pagination {
+  display: flex;
+	justify-content: space-around;
+  gap: 24px;
+}
+
+.pagination button {
+  background: lightblue;
+  border-radius: 50px;
+}

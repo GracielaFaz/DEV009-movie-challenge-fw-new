@@ -15,7 +15,7 @@ export default function WebFooter() {
 			</div>
 
 			<div className='info'>
-				<p>2023 Finder by Graciela Faz</p> 
+				<p>2023 Miklopolis by Graciela Faz</p> 
 				<p>Database: <a href="https://www.themoviedb.org/">TMDB</a></p>
 			</div>
 		</footer>
